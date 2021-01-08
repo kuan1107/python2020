@@ -117,6 +117,8 @@ a = 100
 print(_______(a))
 
 (A) any   (B) type   (C) complex   (D) bin
+
+(B) type 
 ```
 ```
 12.試問以下程式執行後輸出什麼結果:
@@ -256,6 +258,8 @@ print(a.format(b))
 (B) Kun Shan University
 (C) University Kun Shan
 (D) University
+
+(B) Kun Shan University
 ```
 ```
 24.試問以下程式執行後輸出什麼結果:
@@ -301,6 +305,8 @@ print(__________)
 (B) a. islower()
 (C) a.upper()
 (D) a.lower()
+
+(C) a.upper()
 ```
 ```
 28.試問以下程式執行後輸出什麼結果:
@@ -310,6 +316,8 @@ print(“%s Python! %d” % (“Hello”,123))
 (A) “%s Python! %d” % (“Hello”,123)
 (B) 123 Python! Hello
 (C) %s Python! %d
+(D) Hello Python! 123
+
 (D) Hello Python! 123
 ```
 ```
@@ -334,6 +342,8 @@ if None:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(A) 沒有任何輸出
 ```
 ```
 31.
@@ -345,6 +355,8 @@ if 1:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(C) Hello
 ```
 ```
 32.
@@ -356,6 +368,8 @@ if 100:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(C) Hello
 ```
 ```
 33.
@@ -367,6 +381,8 @@ if 0:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(A) 沒有任何輸出
 ```
 ```
 34.
@@ -389,6 +405,8 @@ if 100 == 100:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(C) Hello
 ```
 ```
 36.
@@ -400,6 +418,8 @@ if 100 >= 1:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(C) Hello
 ```
 ## 選擇結構2
 ```
