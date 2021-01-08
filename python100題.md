@@ -436,6 +436,8 @@ else:
 (B) a != b
 (C) a
 (D) b
+
+(A) a == b、a < b、a <= b
 ```
 ```
 38.
@@ -448,6 +450,8 @@ print("A") if a > b else print("B")
 (B) a
 (C) B
 (D) A
+
+(C) B
 ```
 ```
 39.
@@ -460,6 +464,8 @@ print("A") if a > b else print("B") if a != b else print("!=")
 (B) !=
 (C) B
 (D) 語法錯誤
+
+(C) B
 ```
 ```
 40.
@@ -474,6 +480,8 @@ if a > b ___ c > a:
 (B) not
 (C) or
 (D) and
+
+(C) or
 ```
 ```
 41.
@@ -503,6 +511,8 @@ if x >= 10:
 (B) 1
 (C) 2
 (D) 0
+
+(C) 2
 ```
 ```
 43.
@@ -521,6 +531,8 @@ elif a == b:
 (A) b > a
 (B) 2
 (C) 1
+(D) 沒有任何結果
+
 (D) 沒有任何結果
 ```
 ## List
@@ -555,6 +567,8 @@ print(thisislist[-4])
 (B) 2
 (C) 3
 (D) 4
+
+(B) 2
 ```
 ```
 47.
@@ -566,6 +580,8 @@ print(thisislist[_________])
 (B) 1:3
 (C) 1-4
 (D) 1-3
+
+(A) 1:4
 ```
 ```
 48.
@@ -577,6 +593,8 @@ print(thisislist[-5:-3:2])
 (B) 2
 (C) 3
 (D) 4
+
+(A) 1
 ```
 ```
 49.
@@ -588,6 +606,8 @@ print(thisislist)
 (A) thisislist(4)
 (B) thisislist(3)
 (C) thisislist[4]
+(D) thisislist[3]
+
 (D) thisislist[3]
 ```
 ```
@@ -623,6 +643,8 @@ print(x)
 (B) thisisdict["2"]
 (C) thisisdict["b"]
 (D) thisisdict[b]
+
+(C) thisisdict["b"]
 ```
 ```
 53.
@@ -635,6 +657,8 @@ print(thisisdict)
 (B) thisisdict["2"]
 (C) thisisdict["b"]
 (D) thisisdict[b]
+
+(C) thisisdict["b"]
 ```
 ```
 54.
@@ -646,6 +670,8 @@ if “3” in thisisdict:
 (A) Yes
 (B) No
 (C) True
+(D) 沒有輸出結果
+
 (D) 沒有輸出結果
 ```
 ```
@@ -659,6 +685,8 @@ if “a” in thisisdict:
 (B) No
 (C) True
 (D) 沒有輸出結果
+
+(A) Yes
 ```
 
 ```
@@ -671,6 +699,8 @@ print(thisisdict1)
 (B) {'a': '1', 'b': '2', 'c': 3}
 (C) {}
 (D) {'1': 'a', '2': 'b', '3': c}
+
+(B) {'a': '1', 'b': '2', 'c': 3}
 ```
 ```
 57.
@@ -683,6 +713,8 @@ print(thisisdict1)
 (B) {'a': '1', 'b': '2', 'c': 3}
 (C) ['a': '1', 'c': 3]
 (D) ['a': '1', 'b': '2', 'c': 3]
+
+(A) {'a': '1', 'c': 3}
 ```
 # Loop迴圈
 ## while迴圈1
@@ -698,6 +730,8 @@ while i < 60:
 (B) 60
 (C) 20
 (D) 0
+
+(A) 59
 ```
 ```
 59.
@@ -711,6 +745,8 @@ print(i)
 (B) 60
 (C) 20
 (D) 0
+
+(B) 60
 ```
 ```
 60.
@@ -723,6 +759,8 @@ while i == 20:
 (B) 輸出一次ok
 (C) 程式不會輸出任何訊息
 (D) 語法錯誤
+
+(A) 無窮迴圈，瘋狂輸出ok
 ```
 ```
 61.
@@ -751,6 +789,8 @@ print(a)
 (B) 100
 (C) 0
 (D) -1
+
+(A) 5050，1加到100的總和
 ```
 ```
 63.
@@ -766,6 +806,8 @@ while i < 15:
 (B) 13、14
 (C) 10、11
 (D) 11、12
+
+(D) 11、12
 ```
 ```
 64.
@@ -779,6 +821,8 @@ _____ i < 3:
 (B) while
 (C) for
 (D) if
+
+(B) while
 ```
 ## for迴圈1
 ```
@@ -791,6 +835,8 @@ ________ x ______ [0, 1, 2]_____
 (B) for list :
 (C) for in {}
 (D) for in :
+
+(D) for in :
 ```
 ```
 66.
@@ -802,6 +848,8 @@ for x in [0, 1, 2]:
 (B) 0、1
 (C) 0、1、2
 (D) x
+
+(C) 0、1、2
 ```
 ```
 67.
@@ -814,6 +862,8 @@ print(x)
 (B) x == “ ”
 (C) “ ” not in x
 (D) x != “ ”
+
+? ?　
 ```
 ```
 68.
@@ -838,6 +888,8 @@ for x in range(6):
 (B) 輸出0~5
 (C) 輸出6
 (D) 輸出隨機的6個數字
+
+(B) 輸出0~5
 ```
 ```
 70.
@@ -849,6 +901,8 @@ for x in range(20, 15, _____):
 (B) 2
 (C) ++2
 (D) 2++
+
+(A) -2
 ```
 ```
 71.
@@ -860,6 +914,8 @@ print(“ok”)
 (A) continue、pass、break
 (B) return 0
 (C) end
+(D) 無法做到
+
 (D) 無法做到
 ```
 # 函數Function
@@ -888,6 +944,8 @@ ____________
 (B) call print_funtion
 (C) print_funtion()
 (D) call print_funtion
+
+(C) print_funtion()
 ```
 ```
 74.
@@ -901,6 +959,8 @@ print(_______)
 (B) add(50+100)
 (C) add(150)
 (D) add()
+
+(A) add(50,100)
 ```
 ```
 75.
@@ -913,6 +973,8 @@ print_name ("Steve Jobs")
 (A) 語法錯誤
 (B) print(yourname)
 (C) yourname
+(D) Steve Jobs
+
 (D) Steve Jobs
 ```
 ```
@@ -985,6 +1047,8 @@ print(x(10))
 (B) 100
 (C) 110
 (D) 200
+
+(C) 110
 ```
 ```
 82.
@@ -1022,6 +1086,8 @@ print(a(10))
 (B) 50
 (C) 150
 (D) 25
+
+(B) 50
 ```
 ```
 85.
@@ -1033,6 +1099,8 @@ hard_func (5, lambda y: y * y)
 (B) 25
 (C) 30
 (D) 100
+
+(C) 30
 ```
 ### Python有許多內建函數(Built in Functions),底下考你對內建函數()的知識
 ### 參考來源:https://www.w3schools.com/python/python_ref_functions.asp
@@ -1043,6 +1111,8 @@ hard_func (5, lambda y: y * y)
 abs(3+4J)
 
 (A) 5.0   (B) 3.0   (C) 4.0   (D) 34.0
+
+(A) 5.0  
 ```
 ```
 87.
@@ -1052,6 +1122,8 @@ x = bin(37)
 print(x)
 
 (A) 0b100110    (B) 0b100101    (C) 0b110100   (D) 0b101100
+
+(B) 0b100101 
 ```
 ```
 88.
@@ -1064,6 +1136,8 @@ print(x)
 (B) A
 (C) B
 (D) C
+
+(A) a
 ```
 ```
 89.
@@ -1076,6 +1150,8 @@ print(x)
 (B) 0xA
 (C) 16
 (D) 10
+
+？？
 ```
 ```
 90.
@@ -1100,6 +1176,8 @@ print(max(x))
 (B) 9
 (C) 8
 (D) 7
+
+(A) 10
 ```
 ```
 92.
@@ -1119,6 +1197,8 @@ a = 'print(100)'
 eval(a) 
 
 (A) 100   (B) 100.0   (C) print(100)   (D) TypeError
+
+(A) 100  
 ```
 ```
 94.
@@ -1128,6 +1208,8 @@ a = float(3)
 print(a)
 
 (A) 3    (B) 3.0    (C) a   (D) TypeError
+
+(B) 3.0 
 ```
 ```
 95.
@@ -1139,6 +1221,8 @@ print(a)
 (A) 100
 (B) 0x101
 (C) 256
+(D) 0x100
+
 (D) 0x100
 ```
 ```
@@ -1152,6 +1236,8 @@ print(a)
 (B) 6
 (C) 4
 (D) 2
+
+(A) 8
 ```
 ```
 97.
@@ -1164,6 +1250,8 @@ print(a)
 (B) 4
 (C) 3
 (D) 2
+
+(C) 3
 ```
 ```
 98.
@@ -1175,6 +1263,8 @@ print(a)
 (B) 314
 (C) 3.14
 (D) 3.1
+
+(C) 3.14
 ```
 ```
 99.
@@ -1187,6 +1277,8 @@ print(a)
 (B) [9, 8, 7, 6, 5, 4, 3, 2, 1]
 (C) [5, 6, 8, 3, 2, 1, 7, 4, 9]
 (D) [9, 4, 7, 1, 2, 3, 8, 6, 5]
+
+(A) [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 ```
 100.
@@ -1198,4 +1290,6 @@ print(a)
 (B) (2, 2) 
 (C) (3, 1) 
 (D) (3, 2)
+
+(A) (2, 1) 
 ```
