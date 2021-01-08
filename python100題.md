@@ -7,6 +7,10 @@
 ________("Hello, Python!")
 
 (A) print   (B) printf   (C) printline   (D) printn
+
+(A)print
+
+
 ```
 ```
 2.要在程式碼中新增一行註解，底下程式需使用哪個符號:
@@ -16,6 +20,9 @@ __這是一行註解
 print("Hello, Python!")
 
 (A)	/   (B) -   (C) #   (D) <!-->
+
+(B)#
+
 ```
 ```
 3.要新建一個變數名稱為school，並將變數值設定為ksu，底下程式需填入:
@@ -23,8 +30,10 @@ print("Hello, Python!")
 #!/usr/bin/python3
 (1)______ = “(2)______”
 
-(A) (1)ksu，(2)school    (B) (1) school，(2) ksu  
+(A) (1)ksu，(2)school    (B) (1) school，(2) ksu
 (C) (1)”ksu”，(2)school   (D) (1)ksu，(2)”school”  
+
+?
 ```
 ```
 4.要檢查變數資料型別 底下程式需使用哪個函數:
@@ -35,6 +44,7 @@ print(______(y))
 
 (A) str   (B) sum   (C) int   (D)type
 
+(D)type
 ```
 ```
 5.試問以下程式執行後輸出什麼:
@@ -44,6 +54,8 @@ y = 65535
 print(type(y))
 
 (A) <class 'int'>  (B) <class 'str'>  (C) <class 'float'>  (D) <class 'tuple'>
+
+(A)<class 'int'>
 ```
 ```
 6.要在程式碼中進行資料型態轉換 底下程式需使用哪個函數將x轉換成float:
@@ -70,6 +82,9 @@ print(___________(string1))
 print(100 < 200)
 
 (A) False   (B) True   (C) 100   (D) 200
+
+(B)True
+
 ```
 # 2.資料型態及其運算 DataType
 ```
@@ -92,6 +107,8 @@ print(a)
 (B) 100
 (C) False
 (D) True
+
+(D)True
 ```
 ```
 11.要在螢幕輸出變數x的資料型態  底下程式需使用哪個函數:
@@ -104,10 +121,12 @@ print(_______(a))
 ```
 12.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
-a = “Python!”
+a = "Python!"
 print(type(a))
 
 (A) str   (B) int   (C) float   (D) tuple
+
+(A) str   
 ```
 ```
 13.試問以下程式執行後輸出什麼結果:
@@ -116,6 +135,8 @@ a = ("Python", True, 1234)
 print(type(a))
 
 (A) str   (B) int   (C) float   (D) tuple
+
+(D) tuple
 ```
 ```
 14.試問以下程式執行後輸出什麼結果:
@@ -124,6 +145,8 @@ a = ["Python", "True", "1234"]
 print(type(a))
 
 (A) set   (B) dict   (C) list   (D) tuple
+
+(C) list  
 ```
 ```
 15.試問以下程式執行後輸出什麼結果:
@@ -132,6 +155,8 @@ a = {"name" : "Eric", "age" : 90}
 print(type(a))
 
 (A) set   (B) dict   (C) list   (D) tuple
+
+(B) dict
 ```
 ## 字串1
 ```
@@ -145,6 +170,8 @@ print(a)
 (B) <Hello Python>
 (C) [Hello Python]
 (D) {"Hello Python"}
+
+(A) "Hello Python"
 ```
 ```
 17.試問以下程式執行後輸出什麼結果:
@@ -154,6 +181,8 @@ a = "Hello, World!"
 print(a[1])
 
 (A) H   (B) e   (C) l   (D) 1
+
+(B)e
 ```
 ```
 18.要在螢幕輸出llo  底下程式需填入什麼:
@@ -163,6 +192,8 @@ a = "Hello, World!"
 print(a[__________])
 
 (A) 4:6   (B) 3:5   (C) 2:5   (D) llo
+
+(c)2:5
 ```
 ```
 19.試問以下程式執行後輸出什麼結果:
@@ -174,6 +205,8 @@ print(a.strip())
 (B)        HelloPython
 (C) HelloPython         
 (D) H e l l o P y t h o n
+
+(A) HelloPython
 ```
 ```
 20.試問若要判斷Kun是否存在於txt字串中以下程式應填入什麼:
