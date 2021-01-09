@@ -100,6 +100,8 @@ a = ___________
 (B) 1.0
 (C) 100 / 10
 (D) 1.0 * 1.0
+
+? ?
 ```
 ```
 10.試問以下程式執行後輸出什麼結果:
@@ -567,6 +569,8 @@ cat = ______
 (B) {'a': 1, 'b': 2, 'b': '3'}
 (C) new cat;
 (D) list()
+
+? ?
 ```
 ```
 45.
@@ -644,6 +648,8 @@ __________
 (B) thisislist.add(6)
 (C) thisislist.insert(6)
 (D) thisislist[5] = 6
+
+? ?
 ```
 ## Dictionary 資料型態
 ```
@@ -655,6 +661,8 @@ thisisdict = ________
 (B) {'a': 1, 'b': 2, 'c': 3}
 (C) dict()
 (D) 123456
+
+? ?
 ```
 ```
 52.
@@ -1019,6 +1027,8 @@ hello_3()
 (B) Hello, world!
 (C) greeting, name!
 (D) '{}, {}!'.format(greeting, name)
+
+? ?
 ```
 ```
 77.
@@ -1032,6 +1042,8 @@ hello_3('great', 'universe')
 (B) Hello, world!
 (C) great, universe!
 (D) '{}, {}!'.format(greeting, name)
+
+? ?
 ```
 ```
 78.
@@ -1058,6 +1070,8 @@ x = ___________
 (B) lambda y 
 (C) lambda y : x
 (D) lambda x : y
+
+? ?
 ```
 ```
 80.
@@ -1068,6 +1082,8 @@ x = lambda y : ______
 (B) x+100
 (C) 100
 (D) 0
+
+? ?
 ```
 ```
 81.
