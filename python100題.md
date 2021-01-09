@@ -33,7 +33,7 @@ print("Hello, Python!")
 (A) (1)ksu，(2)school    (B) (1) school，(2) ksu
 (C) (1)”ksu”，(2)school   (D) (1)ksu，(2)”school”  
 
-?
+(B) (1) school，(2) ksu
 ```
 ```
 4.要檢查變數資料型別 底下程式需使用哪個函數:
@@ -65,6 +65,8 @@ x = 65535
 ______(x)
 
 (A) long   (B) str   (C) float   (D)int
+
+(C) float
 ```
 ```
 7.要計算一個字串長度 底下程式需使用哪個函數:
@@ -74,6 +76,8 @@ string1 = "Hello, Python!"
 print(___________(string1))
 
 (A) find   (B) len   (C) count   (D)replace
+
+(B) len
 ```
 ```
 8.試問以下程式執行後輸出什麼結果:
@@ -221,6 +225,8 @@ print(x)
 (B) on
 (C) ==
 (D) in
+
+(D) in
 ```
 ```
 21.試問若要輸出a、b兩字串合併後的結果以下程式應填入什麼:
@@ -233,6 +239,8 @@ print(__________)
 (B) a + b
 (C) ab
 (D) a,b
+
+(B) a + b
 ```
 ```
 22.試問以下程式執行後輸出什麼結果:
@@ -244,6 +252,8 @@ print(a + b)
 (A) Kun Shan100
 (B) a + b
 (C) 100 Kun Shan
+(D) TypeError
+
 (D) TypeError
 ```
 ## 字串2
@@ -272,6 +282,8 @@ print(a.format(b,‘Hello’))
 (B) University Kun Shan Hello
 (C) {1} Kun Shan {0}
 (D) b,‘Hello’
+
+(A) Hello Kun Shan University
 ```
 ```
 25.試問若以下程式執行後要輸出一對雙引號需填入什麼:
@@ -283,6 +295,8 @@ print(a)
 (B) <””>
 (C) \"\"
 (D) [“”]
+
+(A) “”
 ```
 ```
 26.要在螢幕輸出字串的長度  底下程式需使用哪個函數:
@@ -294,6 +308,8 @@ print(_______)
 (B) length(a)
 (C) abs(a)
 (D) int(a)
+
+(A) len(a)
 ```
 ```
 27.試問要英文字母轉為大寫以下程式需填入什麼:
@@ -330,6 +346,8 @@ print(a)
 (B) replace(“x”,”o”)
 (C) “Hellx Pythxn!”
 (D) format(“o”,”x”)
+
+(A) replace(“o”,”x”)
 ```
 # 3.選擇結構1
 ```
@@ -394,6 +412,8 @@ if 100 == “100”:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(B) 語法錯誤
 ```
 ```
 35.
@@ -496,6 +516,8 @@ if b > a:
 (B) return 0
 (C) return True
 (D) break
+
+(A) pass
 ```
 ```
 42.
@@ -555,6 +577,8 @@ print(__________)
 (A) thisislist(3)
 (B) thisislist(2)
 (C) thisislist[3]
+(D) thisislist[2]
+
 (D) thisislist[2]
 ```
 ```
@@ -774,6 +798,8 @@ while i == 20:
 (B) return 0
 (C) break
 (D) return True
+
+(C) break
 ```
 ```
 62.
@@ -877,6 +903,8 @@ for x in [0, 1, 2,3]:
 (B) break
 (C) pause
 (D) exit
+
+(A) continue
 ```
 ```
 69.
@@ -916,7 +944,7 @@ print(“ok”)
 (C) end
 (D) 無法做到
 
-(D) 無法做到
+(A) continue、pass、break
 ```
 # 函數Function
 ## 自訂函數1
@@ -931,6 +959,8 @@ _______________:
 (B) print_funtion()
 (C) def print_funtion()
 (D) DWORD print_funtion()
+
+(C) def print_funtion()
 ```
 ```
 73.
@@ -1015,6 +1045,8 @@ hello_3(name = 'great')
 (B) Hello, world!
 (C) '{}, {}!'.format(greeting, name)
 (D) Hello, great!
+
+graeat,Hello!
 ```
 ## 匿名函數Lambda
 ```
@@ -1060,6 +1092,8 @@ print(x(3, 3))
 (B) a, b : a * b
 (C) a * b
 (D) a, b
+
+(B) a, b : a * b
 ```
 ```
 83.
@@ -1072,6 +1106,8 @@ print(a(8))
 
 (A) (1) 7  (2) a*x      (B) (1) a*x  (2) 7
 (C) (1) 7  (2) a*a      (D) a*a    (2) 7
+
+(A) (1) 7  (2) a*x    
 ```
 ```
 84.
@@ -1151,7 +1187,7 @@ print(x)
 (C) 16
 (D) 10
 
-？？
+(D) 10
 ```
 ```
 90.
@@ -1164,6 +1200,8 @@ print(len(x))
 (B) 13
 (C) 14
 (D) 15
+
+(C) 14
 ```
 ```
 91.
@@ -1188,6 +1226,8 @@ print(x)
 (A) 123
 (B) 321
 (C) 0
+(D) 97
+
 (D) 97
 ```
 ```
